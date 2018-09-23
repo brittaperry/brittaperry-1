@@ -21,7 +21,7 @@
   list-style-type: none;
   text-transform: uppercase;
   font-family: helvetica;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .content{
@@ -29,6 +29,6 @@
   border: black 1px solid;
   height: 1000px;
   width: 600px;
-  margin-left: 500px;
+  margin: 10px;
   display: inline;
 }
