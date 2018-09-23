@@ -9,8 +9,8 @@
   border: black 1px solid;
   height: 150px;
   width: 200px;
-  padding-left: 50px;
-  padding-top: 400px;
+  margin-left: 50px;
+  margin-top: 400px;
 }
 
 .sidebar li {
@@ -21,6 +21,6 @@
   background-color: blue;
   border: black 1px solid;
   height: 1000px;
-  width: 600px
-  padding-left: 500px;
+  width: 600px;
+  margin-left: 500px;
 }
