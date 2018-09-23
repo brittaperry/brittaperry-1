@@ -1,6 +1,6 @@
 .nav{
   min-width: 100%;
-  min-height: 100%;
+  min-height: 1000px;
   display: grid;
   grid-template-columns: 20% 80%;
   grid-template-rows: 50% 50%;
