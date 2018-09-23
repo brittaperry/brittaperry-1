@@ -20,9 +20,7 @@
 .content{
   background-color: blue;
   border: black 1px solid;
-  height: 100%;
-  width: 70%;
+  height: 1000px;
+  width: 600px
   padding-left: 500px;
-  float: right;
-
 }
