@@ -1,6 +1,6 @@
 .nav{
   width: 100%;
-  height: 1000px;
+  height: 100%;
   display: flex;
   align-items: flex-start;
   font-family: "HelveticaNeue-light";
@@ -12,10 +12,15 @@
   height: 230px;
   width: 200px;
   margin-left: 100px;
-  margin-top:200px;
+  margin-top:180px;
   padding: 20px;
   padding-top: 40px;
   position: fixed;
+  color:black;
+}
+
+a {
+  color: black;
 }
 
 .sidebar li {
@@ -25,11 +30,9 @@
   margin-left: 10px;
   padding: 1px;
   list-style-type: none;
-  text-transform: none;
   font-size: 16px;
   text-decoration: none; border: solid 1px transparent;
 }
-
       .sidebar li :hover {
         color: rgb(0, 0, 0);
         border: solid 1px;
@@ -49,7 +52,7 @@
   background-color: white;
   border:white 0px solid;
   height: 100%;
-  width: 800px;
+  width: 700px;
   margin-left: 400px;
   margin-right: 100px;
   margin-top: 20px;
@@ -68,4 +71,38 @@
 
 .stuff{
   font-size: 12px;
+  width: 700px;
+}
+
+img {
+  max-width:100%;
+  height:auto;
+}
+
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .7} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .8} 
+  to {opacity: 1}
 }
