@@ -1,7 +1,8 @@
 .nav{
   width: 1500px;
   height: 1000px;
-  align-items: center;
+  display: flex;
+  align-items: flex-start;
 }
 
 .sidebar{
