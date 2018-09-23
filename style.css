@@ -11,7 +11,7 @@
   border: black 1px solid;
   height: 250px;
   width: 200px;
-  margin-left: 150px;
+  margin-left: 100px;
   margin-top:200px;
   padding: 20px;
   position: fixed;
@@ -32,7 +32,7 @@
   width: 800px;
   margin-left: 400px;
   margin-right: 100px;
-  padding: 30px;
+  padding: 50px;
 }
 
 .sidebar, .content {
