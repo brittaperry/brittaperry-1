@@ -9,20 +9,41 @@
 .sidebar{
   background-color: white;
   border: black 1px solid;
-  height: 250px;
+  height: 240px;
   width: 200px;
   margin-left: 100px;
   margin-top:200px;
   padding: 20px;
+  padding-top: 40px;
   position: fixed;
 }
 
 .sidebar li {
-  width: 150px;
-  padding-top: 10px;
+  width: 170px;
+  height: 18px;
+  margin-top: 5px;
+  margin-left: 10px;
+  padding: 1px;
   list-style-type: none;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 16px;
+  text-decoration: none; border: solid 1px transparent;
+}
+
+      .sidebar li:hover {
+        color: rgb(0, 0, 0);
+        //font-style: italic;
+        border: solid 1px;
+      }
+
+.nav input[type=text] {
+  float: center;
+  border: 1px black solid;
+  padding: 5px;
+  margin-top: 20px;
+  width: 95%;
+  margin-right: 30px;
+  font-size: 12px;
 }
 
 .content{
@@ -32,7 +53,7 @@
   width: 800px;
   margin-left: 400px;
   margin-right: 100px;
-  padding: 50px;
+  padding: 40px;
 }
 
 .sidebar, .content {
@@ -42,7 +63,7 @@
 .header{
   font-size: 40px;
   margin-bottom: 20px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .stuff{
