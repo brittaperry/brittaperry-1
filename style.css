@@ -10,10 +10,10 @@
   background-color: white;
   border: black 1px solid;
   height: 230px;
-  width: 200px;
-  margin-left: 100px;
+  width: 15%;
+  margin-left: 10%;
   margin-top:180px;
-  padding: 20px;
+  padding: 2%;
   padding-top: 40px;
   position: fixed;
   color:black;
@@ -24,10 +24,8 @@ a {
 }
 
 .sidebar li {
-  width: 170px;
   height: 18px;
   margin-top: 5px;
-  margin-left: 10px;
   padding: 1px;
   list-style-type: none;
   font-size: 16px;
@@ -35,26 +33,26 @@ a {
 }
       .sidebar li :hover {
         color: rgb(0, 0, 0);
+        padding: 1px;
         border: solid 1px;
       } 
 
 .nav input[type=text] {
-  float: center;
   border: 1px black solid;
   padding: 5px;
   margin-top: 20px;
-  width: 95%;
-  margin-right: 30px;
+  width: 100%;
   font-size: 12px;
+  box-sizing: border-box;
 }
 
 .content{
   background-color: white;
   border:white 0px solid;
   height: 100%;
-  width: 700px;
-  margin-left: 400px;
-  margin-right: 100px;
+  width: 70%;
+  margin-left: 30%;
+  margin-right: 10%;
   margin-top: 20px;
   padding: 40px;
 }
@@ -70,8 +68,9 @@ a {
 }
 
 .stuff{
-  font-size: 12px;
-  width: 700px;
+  font-size: 14px;
+  line-height: 1.4em;
+  width: 100%;
 }
 
 img {
@@ -105,4 +104,22 @@ img {
 @keyframes fade {
   from {opacity: .8} 
   to {opacity: 1}
+}
+
+div{
+  display: block;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+#myphoto{
+  display: block;
+  float: left;
+  margin-right: 20px;
 }
