@@ -12,6 +12,8 @@
   width: 200px;
   margin-left: 100px;
   margin-top: 250px;
+  padding: 20px;
+  display: inline;
 }
 
 .sidebar li {
@@ -28,5 +30,5 @@
   height: 1000px;
   width: 600px;
   margin-left: 500px;
-  align-self: flex-start;
+  display: inline;
 }
