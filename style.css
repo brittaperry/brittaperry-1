@@ -1,6 +1,7 @@
 .nav{
   width: 1500px;
   height: 1000px;
+  display: block;
 }
 
 .sidebar{
@@ -28,4 +29,8 @@
   width: 600px;
   margin: 10px;
   display: inline;
+}
+
+.sidebar, .content {
+    display: inline-block;
 }
