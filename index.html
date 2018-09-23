@@ -9,22 +9,56 @@
 <div class = "nav">
 
   <div class = "sidebar">
-    <li> home
-    <li> design
-    <li> photography
-    <li> blog
-    <li> about
-    <li> contact
+    <li> <a style = "text-decoration: none"; href = "home.html"> Home</a>
+    <li> <a style = "text-decoration: none"; href = "design.html"> Design</a>
+    <li> <a style = "text-decoration: none"; href = "photography.html">Photography</a>
+    <li> <a style = "text-decoration: none"; href = "blog.html">Blog</a>
+    <li> <a style = "text-decoration: none"; href = "about.html">About</a>
+    <li> <a style = "text-decoration: none"; href = "contact.html">Contact</a>
     <input type="text" placeholder="Search..">
   </div>
 
   <div class = "content">
     <div class = "header">
-      this is my content
       </div>
     <div class = "stuff">
-      lorem ipsem
-      </div>
+        
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img src="https://i.imgur.com/kCKImEX.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="https://i.imgur.com/hDFH98b.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="https://i.imgur.com/0cHy2EN.jpg" style="width:100%">
+        </div>    
+    
+        <script src="javascript.js">
+            </script>
+        <!-- <script>
+                var slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < slides.length; i++) {
+                       slides[i].style.display = "none";  
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}
+                
+                    slides[slideIndex-1].style.display = "block";  
+                    setTimeout(showSlides, 5000); // Change image every 5 seconds
+                }
+                </script> -->
+    </div>
   </div>
   
 </div> 
