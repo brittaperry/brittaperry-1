@@ -1,5 +1,5 @@
 .nav{
-  min-width: 100%;
+  width: 1500px;
   height: 1000px;
   display: block;
 }
@@ -28,3 +28,8 @@
   width: 600px;
   margin-left: 500px;
 }
+
+.sidebar,.content {
+    display: inline-block;
+  }
+
