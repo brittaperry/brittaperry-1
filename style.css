@@ -3,13 +3,13 @@
   height: 1000px;
   display: flex;
   align-items: flex-start;
-  font-family: helvetica;
+  font-family: "HelveticaNeue-light";
 }
 
 .sidebar{
   background-color: white;
   border: black 1px solid;
-  height: 240px;
+  height: 230px;
   width: 200px;
   margin-left: 100px;
   margin-top:200px;
@@ -25,16 +25,15 @@
   margin-left: 10px;
   padding: 1px;
   list-style-type: none;
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 16px;
   text-decoration: none; border: solid 1px transparent;
 }
 
-      .sidebar li:hover {
+      .sidebar li :hover {
         color: rgb(0, 0, 0);
-        //font-style: italic;
         border: solid 1px;
-      }
+      } 
 
 .nav input[type=text] {
   float: center;
@@ -47,8 +46,8 @@
 }
 
 .content{
-  background-color white;
-  border: white 0px solid;
+  background-color: white;
+  border:white 0px solid;
   height: 100%;
   width: 800px;
   margin-left: 400px;
