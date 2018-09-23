@@ -2,6 +2,7 @@
   width: 1500px;
   height: 1000px;
   display: block;
+  align-items: flex-start;
 }
 
 .sidebar{
