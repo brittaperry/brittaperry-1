@@ -73,11 +73,25 @@ a {
   width: 100%;
 }
 
+div{
+  display: block;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+
 img {
   max-width:100%;
   height:auto;
 }
 
+/* home page */
 .slideshow-container {
   max-width: 700px;
   position: relative;
@@ -88,7 +102,7 @@ img {
   display: none;
 }
 
-/* Fading animation */
+/* fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 2s;
@@ -106,20 +120,42 @@ img {
   to {opacity: 1}
 }
 
-div{
-  display: block;
-}
-
-p {
-  display: block;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-}
-
+/* about page*/
 #myphoto{
   display: block;
   float: left;
   margin-right: 20px;
 }
+
+/* portfolio page*/
+.portfoliogrid{
+  display:inline;
+}
+
+/* turns it into a 3x3 grid*/
+article{
+  display:block;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+article.thumb-article, div .thumb-article{
+	display:block;
+	float:left;
+	width:32%;
+	margin-right:1%;
+	position:relative;
+	line-height:0px;
+	margin-bottom:1%;
+	transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+	-webkit-transition: opacity .2s ease-in-out;
+}
+  
+article.thumb-article:hover, div.thumb-article:hover{
+	opacity:.5;	
+	filter: alpha(opacity=5); 
+  -ms-filter: "progid:DXImageTransform.Microsoft.alpha(opacity=8)"; }
