@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class = "nav">
+
+  <div class = "sidebar">
+    <li> <a style = "text-decoration: none"; href = "home.html"> Home</a>
+    <li> <a style = "text-decoration: none"; href = "design.html"> Design</a>
+    <li> <a style = "text-decoration: none"; href = "photography.html">Photography</a>
+    <li> <a style = "text-decoration: none"; href = "blog.html">Blog</a>
+    <li> <a style = "text-decoration: none"; href = "about.html">About</a>
+    <li> <a style = "text-decoration: none"; href = "contact.html">Contact</a>
+    <input type="text" placeholder="Search..">
+  </div>
+
+  <div class = "content">
+    <div class = "header">
+      </div>
+    <div class = "stuff">
+            <img src="https://i.imgur.com/hDFH98b.jpg" style="width:50%" id="myphoto">
+            <p>
+            Hello! I'm Winnie. I am a 4th year student at University of Toronto for neuroscience and cinema studies, interested in the intersection between psychology and film. Outside of school, I am an aspiring UX designer. All photos are shot on film unless indicated otherwise. I use a Canon AE-1 and Nikon FE2. 
+            <p>For “business” inquiries, email me at jwinniewang@gmail.com.
+        
+
+    </div>
+  </div>
+  
+</div> 
+<body>
+
+</html>
